@@ -1,0 +1,60 @@
+.title {
+    text-align: center;
+    font-family: arial, sans-serif;
+  }
+
+  .table {
+    border-collapse: inherit;
+    width: 100%;
+  }
+  thead, tbody, tfoot {
+    border-bottom: none !important;
+}
+.students {
+    text-align: center;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    /* border-collapse: collapse; */
+   
+    /* width: 50%; */
+    /* border-radius: 53px; */
+    /* margin: 3px; */
+}
+.table-margin {
+    margin: 15px;
+    width: 40%;
+    display: inline-block;
+    border: 1px groove #e5e9ef;
+}
+  
+.students td, th {
+       /* border: 1px solid #ddd; */
+       text-align: center;
+}
+  
+.students tr:nth-child(even){background-color: #f2f2f2;}
+  
+.students tr:hover {background-color: #ddd;}
+  
+.students th {
+       /* padding-top: 2px; */
+    /* padding-bottom: 12px; */
+    text-align: center;
+    background-color: #7bd27f;
+    color: #fff;
+}
+.dynamic-table {
+    text-align: center;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+.table-button {
+    background-color: rgb(0, 82, 204);
+    border: none;
+    color: white;
+    padding: 4px 15px;
+    text-align: center;
+    text-decoration: none;
+    /* display: inline-block; */
+    font-size: 12px;
+    float: right;
+    margin: 2px 5px;
+}
